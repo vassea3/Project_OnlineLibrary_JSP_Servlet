@@ -1,0 +1,31 @@
+<%@ page pageEncoding="UTF-8" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>  
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="resources/css/style.css" rel="stylesheet" />
+         <link href="resources/css/style1.css" rel="stylesheet" />
+         <link href="resources/css/stylePaginate.css" rel="stylesheet" />
+         <title>${siteTitle}</title>
+    </head>
+    <body class="backgroundImage">
+        <nav >
+            <ul id="menuListUl">
+                <li class="menuListLi">
+                    <a href="cmsmainpage">Main Page</a>
+                </li>
+                <li class="menuListLi">
+                    <a href="cmslistabooks">Edit Books</a>
+                </li>
+                <li class="menuListLi">
+                    <a href="cmsShowMessages">Messages</a>
+                </li>
+                
+                <li class="menuListLi">
+                    <a href="cmslistapages">Edit page</a>
+                </li>
+                <li class="menuListLi">
+                    <a href="cmslogout">Log out</a>
+                </li>
+            </ul>
+        </nav>

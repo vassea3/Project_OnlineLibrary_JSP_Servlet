@@ -1,0 +1,284 @@
+html{
+    color: white;
+}
+#menuListUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+}
+.textOnSlyde{
+
+    font-size: 50px;
+    font-style: italic;
+    color: #ac2925;
+    font-weight: bold;
+}
+.menuListLi {
+    float: left;
+
+}
+
+.menuListLi a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menuListLi a:hover {
+    background-color: #111;
+}
+.containerSlide{
+    margin-top: -48px;
+    margin-bottom: 3%;
+}
+.backgroundImage{
+    background: url(../images/background.jpg) center center no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin-top: 0.3%;
+}
+
+#contacts {
+    margin: 0 auto;
+    width: 80%;
+    height: 400px;
+}
+
+#contactMap iframe{
+    float: left;
+    border: 5px solid gray;
+    width: 70%;
+    height: 390px;
+}
+.contactDetails{
+    float: right;
+    margin-right: 2%;
+    width: 26%;
+
+}
+.contactText{
+    margin-top: 5%; 
+    text-align: center;
+}
+#contactForm{
+
+    max-width: 80%;
+    text-align: center;
+    margin: -17% auto;
+
+
+}
+
+.contactPersonalInformation{
+    float: left;
+    width: 60%;
+}
+.contactPersonalInformation input{
+    height: 30px;
+    width: 100%;
+    margin: 2%;
+    border-radius:10px;
+    padding: 1%;
+    border: 3px solid #66afe9;
+}
+.message {
+    float:right; 
+    width: 30%;
+    padding-right: 3%; 
+    padding-top: 1%;
+}
+.message textarea{
+    width: 100%;
+    height: 109px;
+    border-radius: 10px;
+    padding: 2%;
+    border: 3px solid #66afe9;
+}
+.buttonSend{
+    margin-top: 21%;
+
+}
+.buttonSend input{
+    font-size: 170%;  
+    border-radius: 10px;
+    border: 3px solid grey;
+    background-color: #66afe9;
+    width: 10%;
+    color:white;
+}
+
+.aboutTop{
+
+    width: 85%;
+    margin: 0 auto;
+}
+
+#imageAbout img{
+    border: 3px solid gray;
+    float: left;
+    width: 59%;
+}
+
+.aboutInformation{
+    width: 38%;
+    float: right;
+
+}
+
+.login{
+    text-align: center;
+    padding-top: 6%;
+    width: 25%;
+    margin: 0 auto;
+    color: white;
+}
+
+.autentification input{
+    margin: 2%;
+    padding: 2.5%;
+    border-radius: 7px;
+    border: 3px solid #66afe9;
+
+}
+
+#logButton input{
+
+    font-size: 170%;  
+    border-radius: 10px;
+    border: 3px solid grey;
+    background-color: #66afe9;
+    width: 40%;
+    color:white;
+
+
+}
+.bookGenres {
+    font-style: normal;
+    margin-left: 1%;
+    float: left;
+    font-size: 20px;
+    width: 14%;   
+}
+.bookGenres ul {
+    list-style-type: none;
+}
+.genresLi a{
+    text-decoration: none;
+    color: white;
+}
+
+.book3Cols{
+    width: 72%;
+    margin: 0 auto;
+    color: white;
+}
+.book3Cols h1{
+    margin-left: 5%;
+}
+.bookAranjare{
+    /*border: 1px solid red;*/
+    float: left;
+    width: 30%;
+    height: 300px;
+    padding: 1%;
+}
+.bookAranjareCms{
+    /*border: 1px solid red;*/
+    float: left;
+    width: 30%;
+    height: 350px;
+    padding: 1%;
+}
+.bookImg{
+    padding: 2%;
+}
+.bookImg img{
+    width: 100%;
+    border: 3px solid grey;  
+    border-radius: 10px;
+}
+.bookName{
+    margin-top: -4%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+.bookAuthor {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+.bookAranjare a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.oneBookAranjare{
+    margin: 0 auto;   
+    width: 85%;
+}
+.oneBookImage img{
+    width: 40%;
+    border: 3px solid grey;  
+    float: left;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+.oneBookSummary{
+    font-size: 18px;
+}
+.oneBookInformation{
+    margin-left: 10%; 
+    width: 85%;
+    font-size: 30px;
+
+}
+
+.serchText input{
+    float: left;
+    height: 30px;
+    width: 28%;
+    margin-left: 2%;
+    border-radius:10px;
+    border: 3px solid #66afe9;
+    padding-left: 1%;
+}
+.serchButton input{
+    float: left;
+    height: 39px;
+    width: 8%;
+    border-radius:10px;
+    border: 3px solid #66afe9;
+    margin-left: -2%;
+    font-size: 150%;
+    font-style: italic;
+}
+.arangeSerch form{
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.footer {
+    position: absolut;
+    margin-top:9%;
+    background-color: black;
+    opacity: 0.5;
+    padding: 1%;
+    font-size: 130%;
+}
+.footer i {
+    font-size: 30px;
+    margin-left: 45%;
+    color: white;
+}
+

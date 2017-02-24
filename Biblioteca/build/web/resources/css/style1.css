@@ -1,0 +1,83 @@
+.cmsMessage{
+    width: 30%;
+    border-right:  thick solid gray;
+    float: left;
+}
+.cmsMessage label{
+    background: grey;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 0.2%;
+
+}
+.cmsMessage i{
+    background: Darkgrey;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 0.4%;
+    margin-left: 10%;
+    text-decoration: none;
+
+}
+#cmsMessageRead{
+    width:100%;
+    height: 240px;
+
+}
+#cmsMessageRead label{
+    background: grey;
+    font-size: 20px;
+    border-radius: 6px;
+    padding: 0.2%;
+}
+#message{
+    width: 60%;
+    margin-left: 33%;
+    background-color: gray;
+    padding: 1%;
+    border-radius: 10px;
+}
+.addBook{
+    text-decoration: none; 
+    color: white;
+}
+.addBookForm{
+   
+    text-align: center;
+}
+.addBookFormCimp{
+    text-align: right;
+}
+
+.addBookFormCimp input{
+    padding: 0.5%;
+    height: 20px;
+    width: 100%;
+    border-radius:10px;
+    border: 3px solid #66afe9;
+}
+.addBookFormCimp label{
+    font-size: 20px;
+}
+.addBookFormBotton input{
+    width: 20%; 
+    height: 30px;
+    margin: 0 auto; 
+    border-radius:10px;
+    border: 3px solid #66afe9;
+}
+.addBookFormTextArea{
+    width: 100%;
+    margin: 2% auto;
+    height: 200px;
+    border-radius:10px;
+    padding: 0.5%;
+    border: 3px solid #66afe9;
+}
+.listaPages{
+    font-size: 30px;
+}
+.listaPages li a{
+    text-decoration: none;
+    color: white;
+}

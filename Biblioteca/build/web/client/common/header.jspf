@@ -1,0 +1,28 @@
+<%@ page pageEncoding="UTF-8" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"  %>  
+<!DOCTYPE html>
+<html >
+    <title>${siteTitle}</title>
+    <head>
+        <link href="resources/css/style.css" rel="stylesheet" >
+        <link href="resources/css/stylePaginate.css" rel="stylesheet" />
+        <link href="resources/css/bootstrap.min.css" rel="stylesheet">
+        <link href="resources/css/modern-business.css" rel="stylesheet">
+    </head>
+    <body class="backgroundImage">
+        <div class="containerSlide">
+            <ul id="menuListUl">
+                <li class="menuListLi">
+                    <a href="home">Home</a>
+                </li>
+                <li class="menuListLi">
+                    <a href="books">Books</a>
+                </li>
+                <li class="menuListLi">
+                    <a href="about">About</a>
+                </li>
+                <li class="menuListLi">
+                    <a href="contacts">Contacts</a>
+                </li>
+            </ul>
+        </div>

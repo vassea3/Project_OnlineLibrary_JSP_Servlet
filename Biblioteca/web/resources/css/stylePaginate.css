@@ -1,0 +1,33 @@
+.page
+{
+    width: 105%;
+    margin: 0px auto;
+}
+.pagination li
+{
+    list-style:none;  
+    float:left;
+    width : 30px;
+    height:30px;
+    border: 1px solid white;
+    background-color: brown;
+    color:white;
+    text-align:center;
+    cursor:pointer; 
+    font-size: 25px;
+}
+
+.pagination li:hover
+{
+    background-color: burlywood;
+    border:1px solid black;
+    color: #66afe9;
+}
+
+.pagination ul{
+    
+margin:0 auto;
+    text-align: center;
+
+}
+
